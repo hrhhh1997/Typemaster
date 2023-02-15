@@ -1,0 +1,174 @@
+/******************************** GENERAL **************************************/
+
+body .container-fluid{
+    padding: 0 7rem 0;
+    background-color: white;
+}
+
+body p, body span{
+    color: #7B8BAD;
+}
+
+body span{
+    font-weight: 700;
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+h4{
+    width: 80%;
+}
+
+h1, h2, h3, h4, h5, h6, span.caps{
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+/********************************************** buttons ***************************/
+#title button.btn{
+    padding: 0.6rem;
+    text-transform: uppercase;
+}
+
+#title nav button.nav-btn{
+    background-color: #E8EFF2;
+}
+
+#title button.header-btn{
+    background-color: #F16718;
+    color: #fff;
+    margin-right: 2rem;
+}
+
+#title nav button.nav-btn:active{
+    background-color: #162542;
+    color: #fff;
+}
+
+#title button.header-btn:active{
+    background-color: #FF9B62;
+}
+
+
+
+
+
+
+/********************************* title section *******************************/
+#title{
+    margin-top: 2rem;
+}
+
+#title nav{
+    margin-bottom: 3.5rem;
+}
+
+#title .title-section{
+    display: flex;
+    gap: 1rem;
+}
+
+.title-section-text p{
+    font-size: 1.425rem;
+    margin-bottom: 2.5rem;
+}
+
+/* title section images */
+#title .title-section .title-section-text, #title .title-section .title-section-img{
+    flex:1;
+}
+
+#title .title-section .title-section-img{
+   text-align: right;
+   overflow: hidden;
+}
+
+div.title-section .title-section-img img{
+    width: 30rem;
+    height: auto;
+    border-radius: 1rem;
+}
+
+
+
+
+
+/************************************** middle section ************************************/
+
+#middle{
+    padding-top: 3.875rem;
+}
+
+#middle .mid-section-div{
+    flex-wrap: wrap;
+}
+
+#middle .mid-section-div, .mid-section-img-div{
+    display: flex;
+}
+
+.mid-section-img-div{
+    gap: 1.88rem;
+}
+
+img.keyboard-phone, img.keyboard-glass{
+    border-radius: 1.5rem;
+}
+
+.mid-section-img-div img.keyboard-phone{
+    width: 15.94rem;
+    height: auto;
+}
+
+.mid-section-img-div img.keyboard-glass{
+    width: 27.813rem;
+    margin-right: 7rem;
+}
+
+.mid-section-text-div, .mid-section-img-div{
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+/********************************* bottom section *******************************/
+
+#bottom{
+    padding-top: 8rem;
+}
+
+
+footer{
+    margin-top: 5rem;
+}
+
+footer p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+/************************************************* MEDIA QUERIES ******************************************/
+
+@media (max-width: 980px){
+    div.title-section .title-section-img img{
+        width: 20rem;
+        height: auto;
+        border-radius: 1rem;
+    }
+}
